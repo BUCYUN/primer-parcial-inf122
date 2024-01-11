@@ -1,0 +1,151 @@
+:root{
+    --yellow:#FFE071;
+    --blackN:#171F26;
+    --white:#ffffff;
+    --blackF:#0C151D;
+    --gray: #A3ABB2;
+    --gm:46px;
+    --sm:22px
+}
+
+body{
+    font-family:'Poppins';
+    background-color: var(--blackF);
+
+}
+.contenedor{
+    display: block;
+    width: 800px;
+}
+
+
+/*seccion1*/
+.profile{
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.user-photo{
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.user-photo img{
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    border: var(--white) 4px solid;
+
+}
+
+.name{
+    padding-left: 20px;
+}
+
+.name p{
+    font-size: var(--sm);
+    color: var(--gray);
+    margin: 0;
+    display: flex;
+}
+
+.name h1{
+    color: var(--white);
+    margin: 0;
+    font-size: var(--gm);
+}
+
+.icon{
+    margin: 0;
+    display: flex;
+}
+
+/*seccion2*/
+.record {
+    color: var(--gray);
+    padding: 20px 2px;
+    text-align: center;
+}
+.record p{
+    display: inline-block;
+    text-align: center;
+    font-size: var(--sm);
+    margin: 20px;
+}
+
+button{
+    font-size: var(--sm);
+    font-weight: 500;
+    text-align: center;
+    width: 290px;
+    height: 80px;
+}
+.button1{
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 50px;
+}
+
+.download{
+    background-color: var(--yellow);
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+.contact{
+    background-color: var(--blackN);
+    color: var(--gray);
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+
+.button2{
+    text-align: center;
+    background-color: var(--blackN);
+    border-radius: 20px;
+    width: 100%;
+    height: 116px;
+}
+
+.portfolio{
+    background-color: var(--blackF);
+    color: var(--gray);
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+
+
+.skills{
+    background-color: var(--blackN);
+    color: var(--gray);
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+.imagenes{
+    text-align: center;
+    align-items: center;
+}
+
+.imagenes img{
+    text-align: center;
+    align-items: center;
+    width: 362px;
+    height: 226px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+@media (max-width: 720px){
+    
+    .contenedor{
+        width: 600px;
+    }
+}
+
+
